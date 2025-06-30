@@ -1,0 +1,46 @@
+.tabla-responsive {
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tabla-historial {
+    width: 100%;
+    min-width: 400px;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e6fff0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tabla-historial thead {
+    background-color: #99c2ff;
+    color: #002b55;
+}
+
+.tabla-historial th,
+.tabla-historial td {
+    padding: 12px 16px;
+    text-align: left;
+    word-wrap: break-word;
+    border-bottom: 1px solid #99c2ff;
+    color: #002b55;
+}
+
+.tabla-historial tbody tr {
+    background-color: #b2f5b2;
+}
+
+.tabla-historial a {
+    color: #2e7d32;
+    text-decoration: none;
+    word-break: break-word;
+    font-weight: 500;
+}
+
+.tabla-historial th {
+    text-align: center;
+}

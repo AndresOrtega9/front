@@ -1,0 +1,20 @@
+<div class="tabla-responsive">
+    <table class="tabla-historial">
+        <thead>
+            <tr>
+                <th>Cat Fact</th>
+                <th>Query</th>
+                <th>Url</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of historial">
+                <td>{{ item.fact }}</td>
+                <td>{{ item.query }}</td>
+                <td>{{item.url}}</td>
+                <td>{{ item.fechaConsulta | date:'short' }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

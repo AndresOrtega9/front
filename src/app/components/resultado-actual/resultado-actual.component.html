@@ -1,0 +1,22 @@
+<div class="contenedor">
+
+    <div class="izquierda">
+        <div class="gif-box">
+            <div *ngIf="cargando">Cargando...</div>
+            <div *ngIf="!cargando">
+                <img [src]="urlGif" alt="Cambiando GIF..." />
+            </div>
+        </div>
+        <div class="botonera">
+            <button (click)="cambiarGif()">Refrescar GIF</button>
+        </div>
+    </div>
+
+    <div class="derecha">
+        <div *ngIf="cargando">Cargando...</div>
+        <div *ngIf="!cargando" class="fact-text">{{ fact }}</div>
+        <div class="btn-fact">
+            <button (click)="obtenerGif()">Nuevo Fact</button>
+        </div>
+    </div>
+</div>
