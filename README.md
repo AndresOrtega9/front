@@ -1,27 +1,31 @@
-# PruebaTecnicaApp
+# Prueba Técnica Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
+Este proyecto fue desarrollado con **Angular 12**
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Requisitos Previos
 
-## Code scaffolding
+Antes de ejecutar el proyecto asegurese de tener instalado lo siguiente
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Node.js v14.x**  
+  Puede descargarlo desde: https://nodejs.org/es/download
 
-## Build
+- **Angular CLI**  
+  Instalar globalmente con el siguiente comando:
+  ```bash
+  npm install -g @angular/cli@12
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Correr el proyecto**  
 
-## Running unit tests
+    Ir a la direccion del proyecto:
+    cd prueba-tecnica-frontend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    Instalar dependencias del proyecto:
+    npm install
 
-## Running end-to-end tests
+    Ejecutar la aplicacion en modo desarrollo:
+    ng server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    Abrir en el navegador: 
+    http://localhost:4200/
